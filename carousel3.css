@@ -1,0 +1,296 @@
+#body{
+    background-color: rgb(35, 37, 37);
+}
+nav{
+    overscroll-behavior-y:inherit;
+}
+
+.fb{
+    height: 40px;
+    width:40px;
+    padding-left:10px ;
+}
+.title{
+    position: fixed;
+    margin-top:20px ;
+    height:100px;
+    width: 100%;
+    background-color: rgb(31, 29, 29);
+    opacity: 0.6;
+    z-index: 100;
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+}
+.title_image{
+    width:100px;
+    height:100px;
+    
+    margin-left: 70px;
+    
+}
+
+.title_image2{
+    width:40px;
+    height:40px;
+    margin-left: 1250px;
+    
+
+}
+.title_image3{
+    width:40px;
+    height:40px;
+    margin-left: 1250px;
+}
+span{
+    padding-left: 30px;
+    font-weight: 600;
+    font-size: large;
+}
+ .carousel{
+    width: 100%;
+    position: absolute;
+    height:800px;
+   
+
+} 
+
+.first_innertext{
+    font-weight: bolder;
+    width:70%;
+    text-align: left;
+    position: relative;
+    top:-525px;
+    left:60%; 
+    font-size: 70px;
+    color: white;
+    font: stretch 50px; 
+    text-decoration: underline;
+}
+ .first_innerbutton{
+    position: relative;
+    top:-520px;
+    left:17%;
+    background-color: green;
+    color: white;
+    padding: 5px;
+    font-weight: 800;
+    WIDTH:150PX;
+
+} 
+.first_innerbutton:hover{
+    background-color: rgb(56, 124, 50);
+}
+
+
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: rgb(236, 52, 52) !important;
+    width:10px
+}
+.carousel-indicators{
+    position: absolute;
+
+}
+.img3{
+    width:100%;
+}
+#one{
+    background-image: url("img/tree12.jpg") !important;
+    width: 100px;
+    height:67px
+}
+#two{
+    background-image: url("img/tree22.jpg") !important;
+    width: 100px;
+    height:67px
+}
+#three{
+    background-image: url("img/img_lights22.jpg") !important;
+    width: 100px;
+    height:67px
+}
+.d-block{
+    height:900px;
+}
+.carousel-control-prev {
+    width:5% !important;
+}
+.carousel-control-next {
+    width:5% !important;
+}
+
+ .menu{
+    display: NONE !important;
+}
+.menu1{
+    display: none;
+} 
+ul{
+    
+    list-style-type:none;
+    display: flex;
+    position: absolute;
+    top:18px;
+    left:200px;
+    
+}
+.ull{
+    display: flex;
+}
+li{
+    padding: 20px;
+}
+@media (max-width:780px){
+    .menu1{
+        display: flex;
+        position: relative;
+        top:20px;
+    }
+    /* span{
+        display: none;
+    } */
+
+    .title_image{
+        margin-left: 10px;
+    }  
+    .ull{
+        margin-top: 60px;
+        display: none; 
+       float: none;
+       height:270px;
+       overflow: scroll;
+       flex-direction: column;
+       background-color: rgb(0, 0, 0);  
+       width:200px;
+       opacity: 1 !important;
+       transition: all .4s ease-in-out;
+       
+   }
+}
+
+@media (max-width:320px) {
+    .d-block{
+        width:fit-content;
+        height: 500px;
+    } 
+    .carousel
+    {
+        height: 500px;
+    }
+    .title_image2{
+        display: none;
+    }
+    .ull{
+        margin-top: 60px;
+        display: none; 
+       float: none;
+       height:270px;
+       overflow: scroll;
+       flex-direction: column;
+       background-color: rgb(0, 0, 0);  
+       width:200px;
+       opacity: 1 !important;
+       
+       
+   }
+  
+}
+@media (max-width:780px) and (min-width:321px){
+    .first_innertext{
+        font-weight: bolder;
+        width:70%;
+        text-align: left;
+        position: relative;
+        top:-325px;
+        left:10%; 
+        font-size: 50px;
+        color: white;
+        font: stretch 50px; 
+        text-decoration: underline;
+    }
+     .first_innerbutton{
+        position: relative;
+        top:-320px;
+        left:-25%;
+        background-color: green;
+        color: white;
+        padding: 5px;
+        font-weight: 800;
+        WIDTH:150PX;
+    
+    } 
+    .fb1{
+        position: absolute;
+        top:30px;
+        left:550px
+    }
+    .fb2{
+        position: absolute;
+        top:30px;
+        left:590px
+    }
+    .fb3{
+        position: absolute;
+        top:30px;
+        left:630px
+    }
+    .fb4{
+        position: absolute;
+        top:30px;
+        left:670px
+    }
+    .ull{
+        position: relative;
+        left:520px;
+        top:-80px
+    }
+
+}
+@media (max-width:1200px) and (min-width:800px){
+    .fb1{
+        position: absolute;
+        top:30px;
+        left:850px
+    }
+    .fb2{
+        position: absolute;
+        top:30px;
+        left:890px
+    }
+    .fb3{
+        position: absolute;
+        top:30px;
+        left:930px
+    }
+    ul{
+        position: absolute;
+        left:140px
+    }
+
+    .first_innertext{
+        font-weight: bolder;
+        width:70%;
+        text-align: left;
+        position: relative;
+        top:-475px;
+        left:10%; 
+        font-size: 50px;
+        color: white;
+        font: stretch 50px; 
+        text-decoration: underline;
+    }
+     .first_innerbutton{
+        position: relative;
+        top:-470px;
+        left:-29.3%;
+        background-color: green;
+        color: white;
+        padding: 5px;
+        font-weight: 800;
+        WIDTH:150PX;
+    
+    } 
+}
+.fb3{
+    cursor: pointer;
+}
+
